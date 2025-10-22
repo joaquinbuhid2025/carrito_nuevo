@@ -1,0 +1,9 @@
+Crear parte grafica para:
+- Añadir productos (nombre, precio, stock, categoria, URL_imagen): 1 ventana
+- Buscar productos -> buscar producto: 1 ventana
+- Borrar productos -> al producto borrado, opcion de borrarlo: misma ventana q la anterior
+- Mostrar productos: -> mostrar todo el array inventario: 1 ventana
+- Actualizar stock -> buscar producto, mostrarlo y verificar subida o bajada de stock
+
+Funcionamiento
+- poner q el ID del array sea autonumerico ✅
