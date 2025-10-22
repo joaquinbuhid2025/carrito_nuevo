@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
-public class VentanaEjemplo {
+public class ventana_agregar_producto{
     public static void main(String[] args) {
         inventario inventario = new inventario();
         JFrame ventana = new JFrame("Agregar producto");
