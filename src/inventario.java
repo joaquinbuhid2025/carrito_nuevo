@@ -30,5 +30,9 @@ public class inventario {
         productos.add(producto);
     }
 
+    public int mostrar_cantidad(){
+        return productos.size();
+    }
+
     public ArrayList<producto> getProductos() { return productos; }
 }
