@@ -4,7 +4,7 @@ import java.io.File;
 
 public class ventana_agregar_producto{
     public static void main(String[] args) {
-        inventario inventario = new inventario();
+        inventario inv = inventario.getInstance();
         JFrame ventana = new JFrame("Agregar producto");
         ventana.setSize(1080, 1000);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -105,7 +105,7 @@ public class ventana_agregar_producto{
                     "Stock: " + nuevoProducto.getStock() + "\n" +
                     "Imagen: " + nuevoProducto.getURL_imagen());
             
-            inventario.agregar_producto(nuevoProducto);
+            inv.agregar_producto(nuevoProducto);
         });
 
         ventana.setVisible(true);
