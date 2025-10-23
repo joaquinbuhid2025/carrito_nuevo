@@ -6,6 +6,8 @@ public class Main {
         // Opcional: precarga o no de productos
 
         SwingUtilities.invokeLater(() -> {
+
+            
             ventana_agregar_producto.main(args);
             ventana_ver_productos.main(args);
         });
