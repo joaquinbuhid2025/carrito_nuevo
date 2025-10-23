@@ -5,10 +5,19 @@ public class inventario {
 
     private inventario() {
         productos = new ArrayList<>();
-        
         productos.add(new producto("Producto 1", 10.0, 10, "Categoria 1", ""));
         productos.add(new producto("Producto 2", 20.0, 20, "Categoria 2", ""));
         productos.add(new producto("Producto 3", 30.0, 30, "Categoria 3", ""));
+        productos.add(new producto("Camiseta Deportiva", 25.99, 50, "Ropa", "img/camiseta.jpg"));
+        productos.add(new producto("Auriculares Bluetooth", 59.90, 20, "Electrónica", "img/auriculares.jpg"));
+        productos.add(new producto("Mouse Gamer", 39.50, 35, "Accesorios", "img/mouse.jpg"));
+        productos.add(new producto("Botella Térmica", 15.75, 80, "Hogar", "img/botella.jpg"));
+        productos.add(new producto("Teclado Mecánico", 79.99, 15, "Electrónica", "img/teclado.jpg"));
+        productos.add(new producto("Zapatillas Running", 89.00, 25, "Calzado", "img/zapatillas.jpg"));
+        productos.add(new producto("Mochila Escolar", 32.40, 40, "Accesorios", "img/mochila.jpg"));
+        productos.add(new producto("Lámpara LED", 18.99, 60, "Hogar", "img/lampara.jpg"));
+        productos.add(new producto("Smartwatch", 120.00, 10, "Tecnología", "img/smartwatch.jpg"));
+        productos.add(new producto("Cargador USB-C", 12.50, 100, "Electrónica", "img/cargador.jpg"));
     }
 
     public static inventario getInstance() { return INSTANCE; }
