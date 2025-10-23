@@ -7,8 +7,8 @@ public class Main {
 
         SwingUtilities.invokeLater(() -> {
 
-            
-            ventana_agregar_producto.main(args);
+
+            //ventana_agregar_producto.main(args);
             ventana_ver_productos.main(args);
         });
     }

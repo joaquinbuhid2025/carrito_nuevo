@@ -23,6 +23,7 @@ public class producto {
     public String getCategoria() { return categoria; }
     public String getURL_imagen() { return URL_imagen; }
 
+    public void setNombre(String nombre) { this.nombre = nombre; }
     public void setPrecio(double precio) { this.precio = precio; }
     public void setStock(int stock) { this.stock = stock; }
     public void setCategoria(String categoria) { this.categoria = categoria; }

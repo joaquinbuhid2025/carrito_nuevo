@@ -38,4 +38,32 @@ public class inventario {
     }
 
     public ArrayList<producto> getProductos() { return productos; }
+
+    public producto getProductoPorId(int id) {
+        for (producto p : productos) {
+            if (p.getId() == id) return p;
+        }
+        return null;
+    }
+
+    public boolean borrarProductoPorId(int id) {
+        for (int i = 0; i < productos.size(); i++) {
+            if (productos.get(i).getId() == id) {
+                productos.remove(i);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean actualizarProducto(int id, String nombre, double precio, int stock, String categoria, String urlImagen) {
+        producto p = getProductoPorId(id);
+        if (p == null) return false;
+        if (nombre != null) p.setNombre(nombre);
+        p.setPrecio(precio);
+        p.setStock(stock);
+        if (categoria != null) p.setCategoria(categoria);
+        p.setURL_imagen(urlImagen);
+        return true;
+    }
 }

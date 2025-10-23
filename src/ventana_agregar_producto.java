@@ -7,7 +7,7 @@ public class ventana_agregar_producto{
         inventario inv = inventario.getInstance();
         JFrame ventana = new JFrame("Agregar producto");
         ventana.setSize(1080, 1000);
-        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setLayout(null);
 
         JLabel titulo = new JLabel("Agregar producto");
