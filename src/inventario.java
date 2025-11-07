@@ -5,9 +5,6 @@ public class inventario {
 
     private inventario() {
         productos = new ArrayList<>();
-        productos.add(new producto("Producto 1", 10.0, 10, "Categoria 1", ""));
-        productos.add(new producto("Producto 2", 20.0, 20, "Categoria 2", ""));
-        productos.add(new producto("Producto 3", 30.0, 30, "Categoria 3", ""));
         productos.add(new producto("Camiseta Deportiva", 25.99, 50, "Ropa", "C:/Users/Joaquin/Documents/UCASAL/Lenguajes_II/carrito/src/img/camiseta.jpg"));
         productos.add(new producto("Auriculares Bluetooth", 59.90, 20, "Electrónica", "C:/Users/Joaquin/Documents/UCASAL/Lenguajes_II/carrito/src/img/auriculares.jpg"));
         productos.add(new producto("Mouse Gamer", 39.50, 35, "Accesorios", "C:/Users/Joaquin/Documents/UCASAL/Lenguajes_II/carrito/src/img/mouse.jpg"));

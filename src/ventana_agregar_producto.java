@@ -106,6 +106,8 @@ public class ventana_agregar_producto{
                     "Imagen: " + nuevoProducto.getURL_imagen());
             
             inv.agregar_producto(nuevoProducto);
+            ventana.setVisible(false);
+
         });
 
         ventana.setVisible(true);
